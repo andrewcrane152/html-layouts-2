@@ -1,0 +1,75 @@
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+
+.first {
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 20px;
+}
+
+.top {
+	height: 100px;
+	width: 30%;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+	
+.grey {
+	background-color: #333333;
+	}
+
+.text {
+	height: 200px;
+	padding: 40px;
+	table-layout: center;
+	overflow: auto;
+}
+
+.second {
+	height: 300px;
+	display: flex;
+	align-content: flex-start;
+	padding: 20px 20px;
+}
+
+.middle.red {
+	width: 35%;
+}
+
+.middle.blue {
+	width: 70%;
+}
+
+.third {
+	display: flex;
+	justify-content: flex-end;
+	background-color: blue;
+	height: 150px;
+	margin: 20px 20px;
+}
+
+.columns {
+	display: flex;
+	height: 100%;
+	width: 250px;
+}
+
+.bottom.red {
+	width: 20%;
+	height: 100%;
+}
+
+.bottom.grey {
+	width: 60%;
+	height: 100%;
+}
